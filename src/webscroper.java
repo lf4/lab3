@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class webscroper {
     public static void main(String[] unused) {
         System.out.println("run");
-        System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt"));
+        System.out.println(urlToString("http://erdani.com/tdpl/hamlet.txt".trim()).length());
     }
 
 
